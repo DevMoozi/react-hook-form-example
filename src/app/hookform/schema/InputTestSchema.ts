@@ -30,7 +30,7 @@ const inputTestSchema: SchemaOf<InputTestForm> = yup.object().shape({
     .required('비밀번호를 입력해 주세요'),
   checkPassword: yup
     .string()
-    .oneOf([yup.ref('password'), null], '패스워드가 일치하지 않습니다')
+    .oneOf([yup.ref('password'), null], '패스워드가 일치하지 않습니다.')
     .required()
 });
 
