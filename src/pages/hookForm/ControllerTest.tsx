@@ -18,7 +18,7 @@ const ControllerTest: React.FC = () => {
 
   return (
     <Grid container className={'p-40'}>
-      <Grid item className={'mb-4'} xs={12}>
+      <Grid item className={'pb-4'} xs={12}>
         <Controller
           name={'email'}
           control={control}
@@ -34,7 +34,7 @@ const ControllerTest: React.FC = () => {
           )}
         />
       </Grid>
-      <Grid item className={'mb-4'} xs={12}>
+      <Grid item className={'pb-4'} xs={12}>
         <Controller
           name={'name'}
           control={control}
@@ -50,7 +50,7 @@ const ControllerTest: React.FC = () => {
           )}
         />
       </Grid>
-      <Grid item className={'mb-4'} xs={12}>
+      <Grid item className={'pb-4'} xs={12}>
         <Controller
           name={'password'}
           control={control}
@@ -67,7 +67,7 @@ const ControllerTest: React.FC = () => {
           )}
         />
       </Grid>
-      <Grid item className={'mb-4'} xs={12}>
+      <Grid item className={'pb-4'} xs={12}>
         <Controller
           name={'checkPassword'}
           control={control}
